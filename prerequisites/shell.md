@@ -1,4 +1,4 @@
-# Shells and Command Line Interface
+# Shells and Command Line Interfaces
 
 ## Objectives
 
@@ -9,7 +9,7 @@
 
 Computers require a way for users to interact. Most computers use a Graphical User Interface (GUI). These are easy to learn and are human friendly. But GUIs rely on the fact that the user will want to do simple tasks and that there is one specific program to accomplish that task.
 
-Another common interface is a **shell**. A shell is a program that runs other programs and is controlled through a **command-line interface**. Think of computer hackers in Hollywood movies - the green text on a black background is their shell and it provides them with access to a lot of tools.
+Another common interface is a **shell**. A shell is a program that runs other programs and is controlled through a **command-line interface** (CLI). Think of computer hackers in Hollywood movies - the green text on a black background is their shell and it provides them with access to a lot of tools.
 
 ## Accessing a Shell
 
@@ -27,4 +27,4 @@ From the shell you can run a variety of programs by typing a given **command** a
 
 In order for a shell to execute a command, it must know what that command means. Shells accomplish this with a **path** - a list of places to search for commands. You can think of a computer's path as where the computer stores dictionaries of commands.
 
-Once a shell is given a command it looks in all the locations in the path until it find the command. If found, the command is executed. If not, the shell will print something like `command not found`.
+Once a shell is given a command, it looks in all the locations in the path until it find the command. If found, the command is executed. If not, the shell will print something like `command not found`.
