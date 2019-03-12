@@ -20,7 +20,7 @@ We will teach using Jupyter Notebooks, which you interact with via a web browser
 
 As this course is based on programming with Python you need to install python and Jupyter Notebooks, which we will use for teaching. For ease, we suggest installing the Anaconda Python distribution.
 
-Anaconda will install, amongst other useful things, Python, Jupyter Notebooks and a package and environment manager (conda). It will also install useful Python modules including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will using during this course.
+Anaconda will install, amongst other useful things, Python, Jupyter Notebooks and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
 
 *The most important thing to note is that however you install Python it should be Python 3.7.*
 
