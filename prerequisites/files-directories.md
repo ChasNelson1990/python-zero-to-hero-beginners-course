@@ -23,7 +23,7 @@ Operating systems allow you to access and interact with files and directories th
 The 'address' of a file or directory is called its **path**. Paths on different operating systems will look different. For example, a user's home directory might look like:
 
 * **Windows:** `C:\Documents and Settings\chas`
-* **OsX:** `/Users/chas`
+* **MacOS:** `/Users/chas`
 * **Linux:** `/home/chas`
 
 Note how the slashes, which separate directories and files in the path, go in different directions for different operating systems.

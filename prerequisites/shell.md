@@ -14,7 +14,7 @@ Another common interface is a **shell**. A shell is a program that runs other pr
 ## Accessing a Shell
 
 * *Windows:* The Windows shell is called the *command prompt*. Open the menu (Windows key) and starting typing "command prompt". A small window with a black background and white cursor will appear. Type `HELP` to see the basic commands available.
-* *OsX:* **##TODO##** Once opened `man <COMMAND>` will provide the manual page for any command.
+* *MacOS:* You can access shell using application `Terminal`. Type `CMD+Space` to find it with Spotlight. Once opened `man <COMMAND>` will provide the manual page for any command.
 * *Linux:* You may have multiple "terminal emulators" on a Linux system and you probably have your favourite already. As with OsX, `man <COMMAND>` will give you information about a command.
 
 ## Running Programs from a Shell
