@@ -1,3 +1,12 @@
+---
+header-includes:
+  - \hypersetup{colorlinks=true,
+            urlcolor=blue,
+            linkcolor=blue,
+            filecolor=blue,
+            citecolor=blue}
+---
+
 # Files and Directories
 
 ## Objectives
@@ -36,16 +45,16 @@ The first, `/`, is the 'root' directory (`C:\` in Windows), i.e. the base of the
 
 Second, it is often useful to know the **current working directory**, i.e. where you currently are in the directory tree. The `pwd` (print working directory) command will print to the shell the full path of your current location.
 
-The current directory can also be referred to by `.` and the parent directory (one level up the directory tree) by `..`. We will use both of these to explore absolute and relative paths and the commands `cd` and `ls` below.
+The current directory can also be referred to by `.` (one period) and the parent directory (one level up the directory tree) by `..` (two periods). We will use both of these to explore absolute and relative paths and the commands `cd` and `ls` below.
 
 ## Absolute and Relative Paths
 
-The example home directories above all start with root (`/` or `C:\`) - these are **absolute paths**. However, file systems also understand **relative paths** - paths that do no start with root. For example, if a home directory (which is also the current working directory) contains a subdirectory called `myDirectory` that holds a file called `myFile.csv` then the following both refer to the same file:
+The example home directories given above all start with root (`/` or `C:\`) - these are **absolute paths**. However, file systems also understand **relative paths** - paths that do no start with root. For example, if a home directory (which is also the current working directory) contains a subdirectory called `myDirectory` that holds a file called `myFile.csv` then the following both refer to the same file:
 
 * **Absolute path:** `/Users/chas/myDirectory/myFile.csv`
 * **Relative path:** `./myDirectory/myFile.csv`
 
-## Navigating the File System
+## Navigating the File System in the Shell
 
 Navigating the file system through a GUI can be quick and easy - the user can see all the subdirectories and files in a directory and clicks to navigate or interact with them. But navigating through a CLI can also be quick - once you know a couple of key commands.
 

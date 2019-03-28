@@ -1,8 +1,17 @@
+---
+header-includes:
+  - \hypersetup{colorlinks=true,
+            urlcolor=blue,
+            linkcolor=blue,
+            filecolor=blue,
+            citecolor=blue}
+---
+
 # Setup
 
 Please install all the below software before attending the course. You will need all this software to take part in the course.
 
-After installation, please complete the pre-course survey [here](https://mysurvey.com). \\TODO Add Link
+After installation, please complete the pre-course survey (see below).
 
 ## Objectives
 
@@ -18,13 +27,13 @@ We will teach using Jupyter Notebooks, which you interact with via a web browser
 
 ## Anaconda - Python including Jupyter Notebooks
 
-As this course is based on programming with Python you need to install python and Jupyter Notebooks, which we will use for teaching. For ease, we suggest installing the Anaconda Python distribution.
+As this course is based on programming with Python you need to install Python and Jupyter Notebooks, which we will use for teaching. For ease, we suggest installing the Anaconda Python distribution.
 
 Anaconda will install, amongst other useful things, Python, Jupyter Notebooks and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
 
-*The most important thing to note is that however you install Python it should be Python 3.7.*
+*The most important thing to note is that however you install Python it should be Python version 3.7.*
 
-If you choose not to install Anaconda then please make sure you have the following packages installed before the course:
+If you choose not to install Anaconda then please make sure you have the following packages(`==<version>`) installed before the course:
 
 * `jupyter==1.0.0`
 * `numpy==1.15.4`
@@ -51,6 +60,12 @@ If you choose not to install Anaconda then please make sure you have the followi
     * Press [Return] to approve the default location
     * Type `yes` and press [Return] to add Anaconda to your path.
 
+## Bringing Your Own Data
+
+During the course we will load data and do some simple data analysis and plotting. If you have some example data that you know you want to process with Python please bring it with you.
+
+We will check the suitability of your data on the day but please provide a description when you complete the pre-course survey.
+
 ## Pre-course Survey
 
-After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://mysurvey.com). \\TODO Add Link
+After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://www.surveymonkey.co.uk/r/6QL9DRN).
