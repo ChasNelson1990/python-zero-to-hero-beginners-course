@@ -23,19 +23,19 @@ Sometimes installations don't run as smoothly as we would hope. If you get stuck
 
 ## A Note on Web Browsers
 
-We will teach using Jupyter Notebooks, which you interact with via a web browser. For this course you should ensure you have an up-to-date version of Chrome, Safari and Firefox installed.
+We will teach using Jupyter Lab, which you interact with via a web browser. For this course you should ensure you have an up-to-date version of Chrome, Safari and Firefox installed.
 
-## Anaconda - Python including Jupyter Notebooks
+## Anaconda - Python including Jupyter Lab
 
-As this course is based on programming with Python you need to install Python and Jupyter Notebooks, which we will use for teaching. For ease, we suggest installing the Anaconda Python distribution.
+As this course is based on programming with Python you need to install Python and Jupyter Lab, which we will use for teaching. For ease, we suggest installing the Anaconda Python distribution.
 
-Anaconda will install, amongst other useful things, Python, Jupyter Notebooks and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
+Anaconda will install, amongst other useful things, Python, Jupyter Lab and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
 
 *The most important thing to note is that however you install Python it should be Python version 3.7.*
 
 If you choose not to install Anaconda then please make sure you have the following packages(`==<version>`) installed before the course:
 
-* `jupyter==1.0.0`
+* `jupyterlab==1.0.2`
 * `numpy==1.15.4`
 * `scipy==1.1.0`
 * `pandas==0.23.4`
@@ -68,4 +68,4 @@ We will check the suitability of your data on the day but please provide a descr
 
 ## Pre-course Survey
 
-After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://www.surveymonkey.co.uk/r/6QL9DRN).
+After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://www.surveymonkey.co.uk/TODO).
