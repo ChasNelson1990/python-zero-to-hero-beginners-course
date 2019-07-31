@@ -6,16 +6,16 @@ This repository contains materials for a 1 day python course (delivery dates/met
 
 The overall aim of this course it to:
 
-> 1. introduce the basic concepts of programming in Python within the comfort of the Jupyter framework
-> 2. showcase some of the advanced functionality available in Python by demonstrating (and providing take-home resources) numpy, scipy, matplotlib, seaborn and pandas code
+1. introduce the basic concepts of programming in Python within the comfort of the Jupyter framework
+2. showcase some of the advanced functionality available in Python by demonstrating (and providing take-home resources) numpy, scipy, matplotlib, seaborn and pandas code
 
 ## Philosophy
 
 Our general philosophy for this course is
 
-> 1. teach in small chunks starting by introducing theory, demonstrating an example, working through a simple case and then setting an exercise. Each exercise is then gone through as a group.
-> 2. teach through errors, error messages and documentation - so that trainees can debug their own codes after they leave the course
-> 3. create a safe environment for asking any and all questions.
+1. teach in small chunks starting by introducing theory, demonstrating an example, working through a simple case and then setting an exercise. Each exercise is then gone through as a group.
+2. teach through errors, error messages and documentation - so that trainees can debug their own codes after they leave the course
+3. create a safe environment for asking any and all questions.
 
 ## Contributors
 
