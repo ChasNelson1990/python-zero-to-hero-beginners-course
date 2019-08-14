@@ -1,4 +1,4 @@
-# Python: Hero-to-Zero 1 day course
+# Python: Zero-to-Hero 1 day course
 
 This repository contains materials for a 1 day python course (delivery dates/methods below)
 
