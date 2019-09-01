@@ -1,4 +1,4 @@
 matplotlib
-seaborne
+seaborn
 pandas
 scipy
