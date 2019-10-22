@@ -36,3 +36,9 @@ We suggest you work through each notebook in turn, attempting at least the tasks
 
 * **2019-04-05**: Programming for Biologists, Royal Society of Biology, Charles Darwin House, London, UK
 * **2019-10-18**: Programming for Biologists, Royal Society of Biology, 1 Naoroji Street, London, UK
+
+## Other Information
+
+These materials also form the prerequisite knowledge for following course:
+
+* **2019-12-09**: IAFIG-RMS: Bioimage analysis with Python, Craik-Marshall Building, Cambridge, UK
