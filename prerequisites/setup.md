@@ -68,4 +68,4 @@ We will check the suitability of your data on the day but please provide a descr
 
 ## Pre-course Survey
 
-After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://www.surveymonkey.co.uk/TODO).
+After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://forms.gle/eVX8FcNi6WEgmDea6).
