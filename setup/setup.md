@@ -46,8 +46,7 @@ If you choose not to install Anaconda then please make sure you have the followi
 
 * *Windows:*
   1. Download the Python 3.7 Anaconda for Windows installer from (https://www.anaconda.com/distribution/#windows).
-  2. Install using the installation defaults **except** "Add Anaconda to my PATH environment variable", which should be checked.
-    * If you install Anaconda without checking this, please uninstall and start again.
+  2. Install using the installation defaults.
 * *MacOS:*
   1. Download the Python 3.7 Anaconda for macOS installer from (https://www.anaconda.com/distribution/#macos).
   2. Install using the installation defaults.
