@@ -1,6 +1,6 @@
 # Python: Zero-to-Hero 1 day course
 
-This repository contains materials for a 1 day python course (delivery dates/methods below)
+This repository contains materials for a beginners python course (delivery dates/information abotu self-taught options below).
 
 ## Aim
 
@@ -22,11 +22,17 @@ Our general philosophy for this course is
 * [Chas Nelson](https://github.com/ChasNelson1990)
 * [Mikolaj Kundegorski](https://github.com/mixmixmix)
 
-## On-line Versions
+## Self-taught On-line Version (12+ hours)
 
-* [*In Development*]: We're currently looking to host a self-learn version of the course on-line. Probably using something like BinderHub. This will include additional examples, exercises and videos.
+We have designed this course in such a way that it should be easy to follow and work through on your own. Each notebook stands alone and should provide you with all the information needed to complete the tasks (blue boxes) and exercises (yellow boxes).
 
-## Delivery Dates
+In order to aid working through the notebooks we have provided short videos for all tasks and exercises. These videos provide complete answers for every task and should be viewed after attempting each task or exercise.
+
+In order to work through the notebooks please follow the instructions in `setup.pdf` for installing Python and Jupyter Lab on your computer, dowload this repository (green button at the top of the landing page), unzip the files and navigate to them from within Jupyter Lab.
+
+We suggest you work through each notebook in turn, attempting at least the tasks on your first run-through. You can then use the exercises to revisit and revise topics when you go through the notebooks again in the future. As with all languages, practice makes perfect.
+
+## In Person Course Delivery Dates (1 day course)
 
 * **2019-04-05**: Royal Society of Biology, Charles Darwin House, London
 * **2019-10-18**: Royal Society of Biology, Charles Darwin House, London
