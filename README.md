@@ -34,5 +34,5 @@ We suggest you work through each notebook in turn, attempting at least the tasks
 
 ## In Person Course Delivery Dates (1 day course)
 
-* **2019-04-05**: Programming for Biologists, Royal Society of Biology, Charles Darwin House, London
-* **2019-10-18**: Programming for Biologists, Royal Society of Biology, Charles Darwin House, London
+* **2019-04-05**: Programming for Biologists, Royal Society of Biology, Charles Darwin House, London, UK
+* **2019-10-18**: Programming for Biologists, Royal Society of Biology, 1 Naoroji Street, London, UK
