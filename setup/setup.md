@@ -59,12 +59,10 @@ If you choose not to install Anaconda then please make sure you have the followi
     * Press [Return] to approve the default location
     * Type `yes` and press [Return] to add Anaconda to your path.
 
-## Bringing Your Own Data
-
-During the course we will load data and do some simple data analysis and plotting. If you have some example data that you know you want to process with Python please bring it with you.
-
-We will check the suitability of your data on the day but please provide a description when you complete the pre-course survey.
-
 ## Pre-course Survey
 
-After installation, please read the other pre-requisite files and then complete the pre-course survey [here](https://forms.gle/eVX8FcNi6WEgmDea6).
+After installation, if you're attending a face-to-face course, please complete the pre-course survey [here](https://forms.gle/eVX8FcNi6WEgmDea6).
+
+## Running Jupyter Lab
+
+To run Jupyter Lab, please open the Anaconda Navigator and run an instance of Jupyter Lab. Jupyter Lab will open in your default browser. You can navigate to files from within the Jupyter Lab interface, run Jupyter Notebooks and create your own files.
