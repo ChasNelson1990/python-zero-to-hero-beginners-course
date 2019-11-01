@@ -1,5 +1,7 @@
 # Python for Beginners Course
 
+[![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChasNelson1990/python-zero-to-hero-beginners-course/master))
+
 This repository contains materials for a beginners python course (delivery dates/information abotu self-taught options below).
 
 ## Aim
@@ -21,6 +23,10 @@ Our general philosophy for this course is
 
 * [Chas Nelson](https://github.com/ChasNelson1990)
 * [Mikolaj Kundegorski](https://github.com/mixmixmix)
+
+## Using Binder to Explore the Course
+
+If you wish to quickly explore the course, you could use Binder (by clicking the button above). However, this won’t save your progress as you go along so we suggest installing locally as described below.
 
 ## Self-taught On-line Version (12+ hours)
 
