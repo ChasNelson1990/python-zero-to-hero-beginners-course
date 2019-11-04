@@ -34,7 +34,7 @@ We have designed this course in such a way that it should be easy to follow and 
 
 In order to aid working through the notebooks we have provided short videos for all tasks and exercises. These videos provide complete answers for every task and should be viewed after attempting each task or exercise.
 
-In order to work through the notebooks please follow the instructions in `setup.pdf` for installing Python and Jupyter Lab on your computer, dowload this repository (green button at the top of the landing page), unzip the files and navigate to them from within Jupyter Lab.
+In order to work through the notebooks please follow the instructions in [`setup.pdf`](https://github.com/ChasNelson1990/python-zero-to-hero-beginners-course/raw/master/setup/setup.pdf) for installing Python and Jupyter Lab on your computer, dowload this repository (green button at the top of the landing page), unzip the files and navigate to them from within Jupyter Lab.
 
 We suggest you work through each notebook in turn, attempting at least the tasks on your first run-through. You can then use the exercises to revisit and revise topics when you go through the notebooks again in the future. As with all languages, practice makes perfect.
 
