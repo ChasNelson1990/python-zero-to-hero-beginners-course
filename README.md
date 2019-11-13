@@ -1,6 +1,6 @@
 # Python for Beginners Course
 
-[![Binder](https://mybinder.org/badge_logo.svg)]([![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChasNelson1990/python-zero-to-hero-beginners-course/master))
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChasNelson1990/python-zero-to-hero-beginners-course/master)
 
 This repository contains materials for a beginners python course (delivery dates/information abotu self-taught options below).
 
