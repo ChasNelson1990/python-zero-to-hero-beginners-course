@@ -45,13 +45,13 @@ If you choose not to install Anaconda then please make sure you have the followi
 ### To install Anaconda
 
 * *Windows:*
-  1. Download the Python 3.7 Anaconda for Windows installer from (https://www.anaconda.com/distribution/#windows).
+  1. Download the Python 3.8 Anaconda for Windows installer from (https://www.anaconda.com/distribution/#windows).
   2. Install using the installation defaults.
 * *MacOS:*
-  1. Download the Python 3.7 Anaconda for macOS installer from (https://www.anaconda.com/distribution/#macos).
+  1. Download the Python 3.8 Anaconda for macOS installer from (https://www.anaconda.com/distribution/#macos).
   2. Install using the installation defaults.
 * *Linux:*
-  1. Download the Python 3.7 Anaconda for Linux installer from (https://www.anaconda.com/distribution/#linux).
+  1. Download the Python 3.8 Anaconda for Linux installer from (https://www.anaconda.com/distribution/#linux).
   2. Open a terminal window and navigate to your Downloads folder (see the Files and Directories page).
   3. Type `bash Anaconda3-` and press [Tab] twice, the full name of the file you downloaded should appear.
   4. Press [Return] and follow the text-only prompts:
