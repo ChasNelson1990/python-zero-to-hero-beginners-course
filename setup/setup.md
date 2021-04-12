@@ -31,16 +31,16 @@ As this course is based on programming with Python you need to install Python an
 
 Anaconda will install, amongst other useful things, Python, Jupyter Lab and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
 
-*The most important thing to note is that however you install Python it should be Python version 3.7.*
+*The most important thing to note is that however you install Python it should be Python version 3.8.*
 
 If you choose not to install Anaconda then please make sure you have the following packages(`==<version>`) installed before the course:
 
-* `jupyterlab==1.0.2`
-* `numpy==1.15.4`
-* `scipy==1.1.0`
-* `pandas==0.23.4`
-* `matplotlib==3.0.2`
-* `seaborn==0.9.0`
+* `jupyterlab==2.2.6`
+* `numpy==1.19.2`
+* `scipy==1.5.2`
+* `pandas==1.1.3`
+* `matplotlib==3.3.2`
+* `seaborn==0.11.0`
 
 ### To install Anaconda
 
@@ -61,7 +61,7 @@ If you choose not to install Anaconda then please make sure you have the followi
 
 ## Pre-course Survey
 
-After installation, if you're attending a face-to-face course, please complete the pre-course survey [here](https://forms.gle/eVX8FcNi6WEgmDea6).
+After installation, if you're attending a face-to-face course, please complete the pre-course survey [here](https://forms.gle/SivqoapmFVWedsnH9).
 
 ## Running Jupyter Lab
 
