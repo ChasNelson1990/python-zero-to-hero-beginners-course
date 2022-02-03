@@ -21,8 +21,8 @@ Our general philosophy for this course is
 
 ## Contributors
 
-* [Chas Nelson](https://github.com/ChasNelson1990)
-* [Mikolaj Kundegorski](https://github.com/mixmixmix)
+- [Chas Nelson](https://github.com/ChasNelson1990)
+- [Mikolaj Kundegorski](https://github.com/mixmixmix)
 
 ## Using Binder to Explore the Course
 
@@ -40,11 +40,22 @@ We suggest you work through each notebook in turn, attempting at least the tasks
 
 ## In Person Course Delivery Dates (1 day course)
 
-* **2019-04-05**: Programming for Biologists, Royal Society of Biology, Charles Darwin House, London, UK
-* **2019-10-18**: Programming for Biologists, Royal Society of Biology, 1 Naoroji Street, London, UK
+- **2019-04-05**: Programming for Biologists, Royal Society of Biology, Charles Darwin House, London, UK
+- **2019-10-18**: Programming for Biologists, Royal Society of Biology, 1 Naoroji Street, London, UK
 
 ## Other Information
 
 These materials also form the prerequisite knowledge for following course:
 
-* **2019-12-09**: IAFIG-RMS: Bioimage analysis with Python, Craik-Marshall Building, Cambridge, UK
+- **2019-12-09**: IAFIG-RMS: Bioimage analysis with Python, Craik-Marshall Building, Cambridge, UK
+
+## Developer Information
+
+When taught in person we recommend getting participants to install Anaconda (as per [`setup.pdf`](https://github.com/ChasNelson1990/python-zero-to-hero-beginners-course/blob/main/setup/setup.pdf)); all the dependencies are pre-installed this way.
+However, for developing (and presenting) the course we use pipenv to ensure that we're using the same version of packages as Anaconda but without having to pollute our own computers with a tools that we find great for using to teach but not great for real life.
+
+To install this repository into a clean system (assuming you have pipenv installed):
+
+```bash
+pipenv install --dev
+```
