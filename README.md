@@ -58,4 +58,5 @@ To install this repository into a clean system (assuming you have pipenv install
 
 ```bash
 pipenv install --dev
+pipenv run jupyter-lab
 ```
