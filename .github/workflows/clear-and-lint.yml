@@ -1,0 +1,38 @@
+name: check cleared outputs, format and lint
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+    branches:
+      - main
+
+jobs:
+  check_outputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: ensure cleared outputs
+        uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+  format:
+    needs: check_outputs
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: format with black
+        uses: jpetrucciani/black-check@master
+        with:
+          path: "."
+          black_flags: "--verbose"
+  flake8:
+    needs: format
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: lint with flake8
+        uses: mhitza/flake8-jupyter-notebook@v1

@@ -3,6 +3,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+lab = "jupyter-lab"
+notebook = "jupyer-notebook"
+
 [packages]
 jupyterlab = "3.2.1"
 matplotlib = "3.4.3"
