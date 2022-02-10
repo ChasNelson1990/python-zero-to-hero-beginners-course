@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
+check_formatting = "black --verbose --diff ."
+format = "black ."
 lab = "jupyter-lab"
 notebook = "jupyer-notebook"
 
@@ -16,7 +18,7 @@ scipy = "1.7.1"
 seaborn = "0.11.2"
 
 [dev-packages]
-black = "22.1"
+black = {version = "22.1", extras = ["jupyter"]}
 flake8 = "4.0"
 nbdime = "3.1"
 rise = "5.7"
