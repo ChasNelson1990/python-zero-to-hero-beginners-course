@@ -24,7 +24,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: format with black
-        uses: jpetrucciani/black-check@master
+        uses: marius-mather/black-check@master
         with:
           path: "."
           black_flags: "--verbose"
