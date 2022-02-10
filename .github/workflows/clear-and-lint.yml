@@ -20,17 +20,20 @@ jobs:
   format:
     needs: check_outputs
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: setup dependencies
-        uses: VaultVulp/action-pipenv@v2.0.1
+      - name: setup python
+        uses: actions/setup-python@v2
         with:
-          command: install -d
+          python-version: "3.9.7"
+      - name: install pipenv
+        run: pip install pipenv
+      - name: install dependencies
+        run: pipenv sync --dev
       - name: format
-        uses: VaultVulp/action-pipenv@v2.0.1
-        with:
-          command: check_formatting
+        run: pipenv run check_formatting
   flake8:
     needs: format
     runs-on: ubuntu-latest
