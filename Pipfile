@@ -6,8 +6,6 @@ name = "pypi"
 [scripts]
 check_formatting = "black --verbose --diff ."
 format = "black ."
-lab = "jupyter-lab"
-notebook = "jupyer-notebook"
 
 [packages]
 jupyterlab = "3.2.1"

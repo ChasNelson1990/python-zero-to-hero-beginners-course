@@ -61,14 +61,14 @@ To install this repository into a clean system (assuming you have pipenv install
 pipenv install --dev
 ```
 
-To run Jupyter Lab:
+To run Jupyter Lab (for demoing):
 
 ```bash
-pipenv run lab
+pipenv run jupyter lab
 ```
 
-To run Jupyter Notebook:
+To run Jupyter Notebook (for presenting slides):
 
 ```bash
-pipenv run notebook
+pipenv run jupyter notebook
 ```
