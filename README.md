@@ -47,6 +47,7 @@ We suggest you work through each notebook in turn, attempting at least the tasks
 
 These materials also form the prerequisite knowledge for following course:
 
+- [Python for Data](https://github.com/ChasNelson1990/python-for-data-course)
 - **2019-12-09**: IAFIG-RMS: Bioimage analysis with Python, Craik-Marshall Building, Cambridge, UK
 
 ## Developer Information
@@ -58,5 +59,16 @@ To install this repository into a clean system (assuming you have pipenv install
 
 ```bash
 pipenv install --dev
-pipenv run jupyter-lab
+```
+
+To run Jupyter Lab:
+
+```bash
+pipenv run lab
+```
+
+To run Jupyter Notebook:
+
+```bash
+pipenv run notebook
 ```
