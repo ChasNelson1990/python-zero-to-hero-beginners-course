@@ -41,4 +41,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: lint with flake8
-        uses: mhitza/flake8-jupyter-notebook@v1
+        uses: ChasNelson1990/flake8-jupyter-notebook@ignoreDisplay
+        with:
+          debug: true
