@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
+clear_all = "jupyter nbconvert --clear-output --inplace notebooks/*.ipynb"
 check_formatting = "black --verbose --diff ."
 format = "black ."
 
