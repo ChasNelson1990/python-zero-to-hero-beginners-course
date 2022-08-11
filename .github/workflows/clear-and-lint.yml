@@ -34,13 +34,3 @@ jobs:
         run: pipenv sync --dev
       - name: format
         run: pipenv run check_formatting
-  flake8:
-    needs: check_cleared_outputs
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      - name: lint with flake8
-        uses: ChasNelson1990/flake8-jupyter-notebook@forPythonCourse
-        with:
-          debug: true
