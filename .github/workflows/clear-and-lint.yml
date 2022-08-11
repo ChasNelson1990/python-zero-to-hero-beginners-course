@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  check_outputs:
+  check_cleared_outputs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -18,7 +18,7 @@ jobs:
       - name: ensure cleared outputs
         uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
   format:
-    needs: check_outputs
+    needs: check_cleared_outputs
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -35,7 +35,7 @@ jobs:
       - name: format
         run: pipenv run check_formatting
   flake8:
-    needs: format
+    needs: check_cleared_outputs
     runs-on: ubuntu-latest
     steps:
       - name: checkout
