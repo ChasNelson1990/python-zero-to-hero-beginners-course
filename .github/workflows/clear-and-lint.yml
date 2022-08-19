@@ -1,0 +1,36 @@
+name: check cleared outputs, format and lint
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+    branches:
+      - main
+
+jobs:
+  check_cleared_outputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: ensure cleared outputs
+        uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+  format:
+    needs: check_cleared_outputs
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9.7"
+      - name: install pipenv
+        run: pip install pipenv
+      - name: install dependencies
+        run: pipenv sync --dev
+      - name: format
+        run: pipenv run check_formatting
