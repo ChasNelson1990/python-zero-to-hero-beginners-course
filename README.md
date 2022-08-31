@@ -30,7 +30,7 @@ If you wish to quickly explore the course, you could use Binder (by clicking the
 
 ## Self-taught On-line Version (12+ hours)
 
-We have designed this course in such a way that it should be easy to follow and work through on your own. Each notebook stands alone and should provide you with all the information needed to complete the tasks (blue boxes) and exercises (yellow boxes).
+We have designed this course in such a way that it should be easy to follow and work through on your own. Each notebook stands alone and should provide you with all the information needed to complete the tasks (green boxes) and exercises (orange boxes).
 
 In order to aid working through the notebooks we have provided short videos for all tasks and exercises. These videos provide complete answers for every task and should be viewed after attempting each task or exercise.
 
