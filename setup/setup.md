@@ -1,10 +1,10 @@
 ---
 header-includes:
   - \hypersetup{colorlinks=true,
-            urlcolor=blue,
-            linkcolor=blue,
-            filecolor=blue,
-            citecolor=blue}
+    urlcolor=blue,
+    linkcolor=blue,
+    filecolor=blue,
+    citecolor=blue}
 ---
 
 # Setup
@@ -15,7 +15,7 @@ After installation, please complete the pre-course survey (see below).
 
 ## Objectives
 
-* To ensure everybody arrives at the course with the right software packages installed
+- To ensure everybody arrives at the course with the right software packages installed
 
 ## Where To Find Help
 
@@ -31,33 +31,33 @@ As this course is based on programming with Python you need to install Python an
 
 Anaconda will install, amongst other useful things, Python, Jupyter Lab and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
 
-*The most important thing to note is that however you install Python it should be Python version 3.8.*
+_The most important thing to note is that however you install Python it should be Python version 3.9._
 
 If you choose not to install Anaconda then please make sure you have the following packages(`==<version>`) installed before the course:
 
-* `jupyterlab==2.2.6`
-* `numpy==1.19.2`
-* `scipy==1.5.2`
-* `pandas==1.1.3`
-* `matplotlib==3.3.2`
-* `seaborn==0.11.0`
+- `jupyterlab==3.4`
+- `numpy==1.23`
+- `scipy==1.7`
+- `pandas==1.4`
+- `matplotlib==3.5`
+- `seaborn==0.11`
 
 ### To install Anaconda
 
-* *Windows:*
-  1. Download the Python 3.8 Anaconda for Windows installer from (https://www.anaconda.com/distribution/#windows).
+- _Windows:_
+  1. Download the Python 3.9 Anaconda for Windows installer from (https://www.anaconda.com/distribution/#windows).
   2. Install using the installation defaults.
-* *MacOS:*
-  1. Download the Python 3.8 Anaconda for macOS installer from (https://www.anaconda.com/distribution/#macos).
+- _MacOS:_
+  1. Download the Python 3.9 Anaconda for macOS installer from (https://www.anaconda.com/distribution/#macos).
   2. Install using the installation defaults.
-* *Linux:*
-  1. Download the Python 3.8 Anaconda for Linux installer from (https://www.anaconda.com/distribution/#linux).
+- _Linux:_
+  1. Download the Python 3.9 Anaconda for Linux installer from (https://www.anaconda.com/distribution/#linux).
   2. Open a terminal window and navigate to your Downloads folder (see the Files and Directories page).
   3. Type `bash Anaconda3-` and press [Tab] twice, the full name of the file you downloaded should appear.
   4. Press [Return] and follow the text-only prompts:
-    * Use [Spacebar] to scroll through the license, then type `yes` and press [Return] to approve
-    * Press [Return] to approve the default location
-    * Type `yes` and press [Return] to add Anaconda to your path.
+  - Use [Spacebar] to scroll through the license, then type `yes` and press [Return] to approve
+  - Press [Return] to approve the default location
+  - Type `yes` and press [Return] to add Anaconda to your path.
 
 ## Pre-course Survey
 
