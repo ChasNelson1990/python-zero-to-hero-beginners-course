@@ -31,27 +31,27 @@ As this course is based on programming with Python you need to install Python an
 
 Anaconda will install, amongst other useful things, Python, Jupyter Lab and a package and environment manager (conda). It will also install useful Python packages including NumPy, SciPy, pandas, matplotlib and seaborn - all of which you will use during this course.
 
-_The most important thing to note is that however you install Python it should be Python version 3.9._
+_The most important thing to note is that however you install Python it should be Python version 3.11._
 
 If you choose not to install Anaconda then please make sure you have the following packages(`==<version>`) installed before the course:
 
-- `jupyterlab==3.4`
-- `numpy==1.23`
-- `scipy==1.7`
-- `pandas==1.4`
-- `matplotlib==3.5`
-- `seaborn==0.11`
+- `jupyterlab==3.6`
+- `numpy==1.26`
+- `scipy==1.11`
+- `pandas==2.0`
+- `matplotlib==3.7`
+- `seaborn==0.12`
 
 ### To install Anaconda
 
 - _Windows:_
-  1. Download the Python 3.9 Anaconda for Windows installer from (https://www.anaconda.com/distribution/#windows).
+  1. Download the Python 3.11 Anaconda for Windows installer from [here](https://www.anaconda.com/download#downloads).
   2. Install using the installation defaults.
 - _MacOS:_
-  1. Download the Python 3.9 Anaconda for macOS installer from (https://www.anaconda.com/distribution/#macos).
+  1. Download the Python 3.11 Anaconda for macOS installer from [here](https://www.anaconda.com/download#downloads).
   2. Install using the installation defaults.
 - _Linux:_
-  1. Download the Python 3.9 Anaconda for Linux installer from (https://www.anaconda.com/distribution/#linux).
+  1. Download the Python 3.11 Anaconda for Linux installer from [here](https://www.anaconda.com/download#downloads).
   2. Open a terminal window and navigate to your Downloads folder (see the Files and Directories page).
   3. Type `bash Anaconda3-` and press [Tab] twice, the full name of the file you downloaded should appear.
   4. Press [Return] and follow the text-only prompts:
